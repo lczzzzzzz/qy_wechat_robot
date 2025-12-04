@@ -23,7 +23,7 @@ export const cat_breeder_main_handler = async () => {
     const params = {
       msgtype: 'markdown',
       markdown: {
-        content: `今日铲屎官<@${breederUserId}>\n若发现异常 [<font color="warning">可记录至表格</font>](${tableAddr})`,
+        content: `今日铲屎官<@${breederUserId}>`,
       },
     };
     axios.post(host, params);
